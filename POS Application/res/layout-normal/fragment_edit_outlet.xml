@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="36dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_outlet_outlet"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/outlet_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_outlet_name"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit_outlet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_outlet_contact_number"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit_outlet_contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_outlet_address"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit_outlet_address"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_outlet_receipt_footer"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit_outlet_receipt_footer"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorBlack"/>
+
+    <Spinner
+        android:id="@+id/edit_status"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:entries="@array/list_status"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_update"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDeepSkyBlue"/>
+
+</LinearLayout>

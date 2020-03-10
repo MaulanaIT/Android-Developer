@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/menu_dashboard_title" android:title="@string/navigation_menu_dashboard">
+        <menu>
+            <item android:id="@+id/menu_dashboard" android:title="@string/navigation_menu_dashboard" android:icon="@drawable/ic_dashboard_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_customer_title" android:title="@string/navigation_menu_customers">
+        <menu>
+            <item android:id="@+id/menu_customers" android:title="@string/navigation_menu_customers" android:icon="@drawable/ic_person_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_gift_card_title" android:title="@string/navigation_menu_gift_card">
+        <menu>
+            <group android:id="@+id/group_gift_card">
+                <item android:id="@+id/menu_add_gift_card" android:title="@string/navigation_menu_add_gift_card" android:icon="@drawable/ic_library_add_gray_24dp"/>
+                <item android:id="@+id/menu_list_gift_card" android:title="@string/navigation_menu_list_gift_card" android:icon="@drawable/ic_credit_card_gray_24dp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_debit_title" android:title="@string/navigation_menu_debit">
+        <menu>
+            <item android:id="@+id/menu_debit" android:title="@string/navigation_menu_debit" android:icon="@drawable/ic_account_box_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_sales_title" android:title="@string/navigation_menu_sales">
+        <menu>
+            <group android:id="@+id/group_sales">
+                <item android:id="@+id/menu_today_sales" android:title="@string/navigation_menu_today_sales" android:icon="@drawable/ic_today_gray_24dp"/>
+                <item android:id="@+id/menu_opened_bill" android:title="@string/navigation_menu_opened_bill" android:icon="@drawable/ic_monetization_on_gray_24dp"/>
+            </group>
+       </menu>
+    </item>
+    <item android:id="@+id/menu_report_title" android:title="@string/navigation_menu_report">
+        <menu>
+            <group android:id="@+id/group_report">
+                <item android:id="@+id/menu_sales_reports" android:title="@string/navigation_menu_sales_report" android:icon="@drawable/ic_assignment_gray_24dp"/>
+                <item android:id="@+id/menu_sold_by_product" android:title="@string/navigation_menu_sold_by_product" android:icon="@drawable/ic_work_gray_24dp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_expenses_title" android:title="@string/navigation_menu_expenses">
+        <menu>
+            <item android:id="@+id/menu_expenses" android:title="@string/navigation_menu_expenses" android:icon="@drawable/ic_account_balance_gray_24dp"/>
+            <item android:id="@+id/menu_expenses_category" android:title="@string/navigation_menu_expenses_category" android:icon="@drawable/ic_view_list_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_profit_and_loss_title" android:title="@string/navigation_menu_profit_and_loss">
+        <menu>
+            <group android:id="@+id/group_profit_and_loss">
+                <item android:id="@+id/menu_profit_and_loss" android:title="@string/navigation_menu_profit_and_loss" android:icon="@drawable/ic_show_chart_gray_24dp"/>
+                <item android:id="@+id/menu_profit_and_loss_report" android:title="@string/navigation_menu_profit_and_loss_report" android:icon="@drawable/ic_poll_gray_24dp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_pos_title" android:title="@string/navigation_menu_pos">
+        <menu>
+            <item android:id="@+id/menu_pos" android:title="@string/navigation_menu_pos" android:icon="@drawable/ic_view_module_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_return_order_title" android:title="@string/navigation_menu_return_order">
+        <menu>
+            <group android:id="@+id/group_return_order">
+                <item android:id="@+id/menu_create_return_order" android:title="@string/navigation_menu_create_return_order" android:icon="@drawable/ic_reorder_gray_24dp"/>
+                <item android:id="@+id/menu_return_order_report" android:title="@string/navigation_menu_return_order_report" android:icon="@drawable/ic_assignment_gray_24dp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_inventory_title" android:title="@string/navigation_menu_inventory">
+        <menu>
+            <item android:id="@+id/menu_inventory" android:title="@string/navigation_menu_inventory" android:icon="@drawable/ic_view_list_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_product_title" android:title="@string/navigation_menu_product">
+        <menu>
+            <group android:id="@+id/group_product">
+                <item android:id="@+id/menu_list_product" android:title="@string/navigation_menu_list_product" android:icon="@drawable/ic_list_gray_24dp"/>
+                <item android:id="@+id/menu_print_product_label" android:title="@string/navigation_menu_print_product_label" android:icon="@drawable/ic_mode_edit_gray_24dp"/>
+                <item android:id="@+id/menu_product_category" android:title="@string/navigation_menu_product_category" android:icon="@drawable/ic_view_list_gray_24dp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/manu_purchase_order_title" android:title="@string/navigation_menu_purchase_order">
+        <menu>
+            <item android:id="@+id/menu_purchase_order" android:title="@string/navigation_menu_purchase_order" android:icon="@drawable/ic_shopping_cart_gray_24dp"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_setting_title" android:title="@string/navigation_menu_setting">
+        <menu>
+            <group android:id="@+id/group_setting">
+                <item android:id="@+id/menu_outlets_setting" android:title="@string/navigation_menu_outlets_setting" android:icon="@drawable/ic_store_gray_24dp"/>
+                <item android:id="@+id/menu_user_setting" android:title="@string/navigation_menu_user_setting" android:icon="@drawable/ic_person_gray_24dp"/>
+                <item android:id="@+id/menu_supplier_setting" android:title="@string/navigation_menu_supplier_setting" android:icon="@drawable/ic_archive_gray_24dp"/>
+                <item android:id="@+id/menu_system_setting" android:title="@string/navigation_menu_system_setting" android:icon="@drawable/ic_settings_gray_24dp"/>
+                <item android:id="@+id/menu_payment_method_setting" android:title="@string/navigation_menu_payment_method" android:icon="@drawable/ic_credit_card_gray_24dp"/>
+            </group>
+        </menu>
+    </item>
+</menu>
